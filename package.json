@@ -1,0 +1,64 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Gamer site",
+  "main": "./scripts/index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "develop": "gulp dev"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimaYanytskyi/site.git"
+  },
+  "keywords": [
+    "gamer",
+    "games",
+    "game"
+  ],
+  "author": "Dima Yanytskyi, Oleksandr Vorona, Dima Petrychenko, Volodymyr Drosenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DimaYanytskyi/site/issues"
+  },
+  "homepage": "https://github.com/DimaYanytskyi/site#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "gulp-babel": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "sass": "^1.50.0",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssimport": "^7.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-fonter": "^0.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-css": "^1.1.0",
+    "gulp-webp-html": "^1.0.2",
+    "i": "^0.3.7",
+    "node-sass": "^7.0.1",
+    "npm": "^8.6.0",
+    "webpack": "^5.72.0",
+    "webpack-stream": "^7.0.0"
+  }
+}
